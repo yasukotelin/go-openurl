@@ -6,8 +6,8 @@ import (
 	"runtime"
 )
 
-// OpenWithBrowser opens url with default browser
-// It supports to OS are linux, windows and darwin
+// OpenWithBrowser opens url with default browser.
+// It supports to OS are linux, windows and darwin(MacOS).
 // If runtime.GOOS is not supported OS, this returns error.
 func OpenWithBrowser(url string) error {
 	var err error
